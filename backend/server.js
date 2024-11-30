@@ -2,7 +2,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const inspectorRoutes = require('./routes/inspectorRoutes');
-const universityRoutes = require('./routes/universityRoutes');
+const universityRoutes = require('./routes/uniRoutes');
 
 const app = express();
 app.use(bodyParser.json());

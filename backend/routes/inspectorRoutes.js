@@ -1,5 +1,5 @@
 const express = require("express");
-const InspectorController = require("../controllers/inspector.controller");
+const InspectorController = require("../controllers/inspectorController");
 const router = express.Router();
 
 router.post("/inspector/signup", InspectorController.signup);
