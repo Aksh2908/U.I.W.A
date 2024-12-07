@@ -20,4 +20,3 @@ export const Signin =()=> {
           </div>
     </div>
 }   
-
